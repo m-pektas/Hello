@@ -1,0 +1,1 @@
+{"TURKEY": "Merhaba :)", "ENGLAND": "Hello", "GERMANY": "Hallo", "SPA\u0130N": "Hola", "FRANCE": "Bonjour"}
