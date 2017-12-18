@@ -1,9 +1,8 @@
 import json
-import GlobalValues
 
-
+fileName="HelloDB.txt"
 def getHello(country):
-    f = open(GlobalValues.fileName,"r")
+    f = open(fileName,"r")
     dictionary = json.loads(f.read())
     try:
         return dictionary[country.upper()]

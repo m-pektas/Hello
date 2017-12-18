@@ -1,5 +1,6 @@
 import json
 
+fileName="HelloDB.txt"
 def writeFileHello():
     merhaba = {
     "TURKEY"  : "Merhaba :)",
@@ -9,7 +10,7 @@ def writeFileHello():
     "FRANCE"  : "Bonjour",
     }
 
-    f = open("HelloDB.txt","w")
+    f = open(fileName,"w")
     f.write(json.dumps(merhaba))
     f.close()
 

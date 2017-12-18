@@ -25,9 +25,6 @@
     <Compile Include="getHello.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GlobalValues.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Main.py">
       <SubType>Code</SubType>
     </Compile>
